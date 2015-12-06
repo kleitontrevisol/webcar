@@ -1,0 +1,147 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, caption, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline; 
+}
+
+body {
+	background-color: #f0f3f5;
+	font-family: 'Cabin', sans-serif;
+}
+
+b {
+	font-weight: bold;
+}
+
+.home {
+	width: 100%;
+	position: relative;
+}
+
+.login {
+	margin:0 auto;
+	width: 280px;
+	position: relative;
+	margin-top: 200px;
+}
+
+.header {
+	position: relative;
+	z-index: 1;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	border-bottom: 3px solid #e6ecef;
+	background-color: #fff;
+}
+
+.header .conteudo {
+	margin:0 auto;
+	width: 950px;
+	position: relative;
+	padding: 20px 0 20px 0;
+	height: 40px;
+}
+
+.header .conteudo h1 {
+	font-size: 28px;
+	float: left;
+}
+
+.header .conteudo .logout {
+	float: right;
+}
+
+.main-content {
+	margin:0 auto;
+	width: 950px;
+	position: relative;
+}
+
+.main-content .menu {
+	float: left;
+	background-color: #fff;
+	width: 120px;
+	margin-top: 40px;
+	height: 150px;
+	border: 3px solid #e6ecef;
+}
+
+.main-content .menu ul li {
+	list-style: none;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	padding-top: 5px;
+	border-bottom: 1px solid #e6ecef;
+}
+
+.main-content .menu ul li a {
+	color: #333;
+	text-decoration: none;
+	font-size: 13px;
+}
+
+.main-content .menu ul li a:hover {
+	text-decoration: underline;
+}
+
+.content {
+	border: 3px solid #e6ecef;
+	float: left;
+	margin-top: 40px;
+	margin-left: 20px;
+	width: 775px;
+	padding: 10px;
+	background-color: #fff;
+}
+
+.content h2 {
+	border-bottom: 1px solid #ccc;
+}
+
+.btn-add {
+	margin-top: 10px;
+}
+
+.btn-add a {
+	color: green;
+	font-weight: bold;
+	text-decoration: none;
+	font-size: 13px;
+}
+
+.btn-add a:hover {
+	text-decoration: underline;
+}
+
+.lista-registros {
+	width: 100%;
+	margin-top: 20px;
+	font-size: 13px;
+}
+
+.lista-registros .acoes {
+	text-align: center;
+}
+
+.lista-registros .acoes a{
+	margin-left: 10px;
+}
+
+.menu-rapido {
+	float: left;
+	clear: both;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.menu-rapido a {
+	padding: 10px;
+	font-size: 13px;
+	text-decoration: none;
+	background-color: #ddd;
+	color: #333;
+}

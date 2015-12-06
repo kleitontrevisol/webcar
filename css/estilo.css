@@ -1,0 +1,212 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline; 
+}
+
+body {
+	background-color: #f0f3f5;
+	font-family: 'Cabin', sans-serif;
+}
+
+b {
+	font-weight: bold;
+}
+
+.home {
+	width: 100%;
+	position: relative;
+}
+
+.header {
+	width: 100%;
+	height: 90px;
+	background: url(../images/top_bg.png);
+	position: absolute;
+	top: 0;
+	z-index: 5;
+}
+
+.header .conteudo {
+	margin-left: auto;
+	margin-right: auto;
+	width: 950px;
+	position: relative;
+	padding: 20px 0 0 0;
+}
+
+.logo {
+	overflow: hidden;
+	height: 50px;
+	width: 220px;
+	float: left;
+	z-index: 2;
+	position: relative;
+}
+
+.menu ul {
+	line-height: 18px;
+	z-index: 1300;
+	margin: 0;
+	padding: 0;
+	font-family: 'Cabin', sans-serif;
+	text-transform: uppercase;
+	font-size: 12px;
+	font-weight: 500;
+	float: right;
+	text-shadow: 0 1px 1px #000;
+	margin-top: 20px;
+}
+
+.menu ul li {
+	display: block;
+	float: left;
+	position: relative;
+	list-style: none;
+	margin: 0 22px;
+	padding: 0 0 20px 0;
+}
+
+.menu ul li a {
+	color:#fff;
+	text-decoration: none;
+}
+
+.menu ul li a:hover {
+	color: #39b4ed;
+}
+
+.header-banner {
+	position: relative;
+	z-index: 1;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	border-bottom: 3px solid #e6ecef;
+	background-color: #fff;
+}
+
+.header-banner img {
+	width: 100%;
+}
+
+.ofertas {
+	margin:0 auto;
+	width: 950px;
+	position: relative;
+	padding: 20px 0 0 0;
+	margin-top: 30px;
+}
+
+.ofertas h2 {
+	font-size: 22px;
+	margin-bottom: 18px;
+	color: #555;
+}
+
+.ofertas .ofertas-item {
+	float: left;
+	padding: 4px;
+	background-color: #fff;
+	font-size: 13px;
+	margin-right: 20px;
+}
+
+.ofertas .ofertas-item:last-child {
+	margin-right: 0px!important;
+}
+
+.ofertas .ofertas-item img {
+	border-bottom: 4px solid #f25720;
+	float: left;
+}
+
+.ofertas .ofertas-item span {
+	float: left;
+	clear: both;
+	margin-top: 5px;
+	color: #555;
+}
+
+.ofertas .ofertas-item span a {
+	color: #f25720;
+	text-decoration: none;
+}
+.ofertas .ofertas-item span a:hover {
+	color: #34a4d8;
+}
+
+.rodape {
+	width: 100%;
+	position: relative;
+	margin-top: 30px;
+	float: left;
+	background-color: #333;
+	border-top: 3px solid #f25720;
+}
+
+.rodape .copright{
+	margin:0 auto;
+	width: 950px;
+	position: relative;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	color: #fFF;
+}
+
+.content-banner {
+	padding-top: 150px;
+	margin:0 auto;
+	width: 950px;
+	position: relative;	
+	color: #f25720;
+	font-size: 30px;
+}
+
+.content-banner h1 {
+	text-shadow: 0 1px 1px #222;
+}
+
+.conteudo-site {
+	margin:0 auto;
+	width: 930px;
+	position: relative;
+	background-color: #fff;
+	padding: 10px;	
+}
+
+.conteudo-site {
+	margin-top: 20px;
+	display: block;
+	color: #333;
+	border: 2px solid #f25720;
+}
+
+.contato h2 {
+	border-bottom: 1px solid #ccc;
+}
+.contato input[type=submit] {
+	padding: 5px;
+	margin: 0px!important;
+}
+
+.msg-sucesso {
+	background-color: #80FF80;
+	padding: 10px;
+	width: 600px;
+	color: #555;
+	border: 2px solid #008C00;
+}
+
+.oferta-veiculos {
+	margin-right: 15px!important;
+	margin-bottom: 15px;
+}
+
+.active {
+	color: #39b4ed!important;
+}
